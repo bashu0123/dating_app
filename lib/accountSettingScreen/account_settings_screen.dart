@@ -198,7 +198,7 @@ class _AccountSettingsScreenState extends State<AccountSettingsScreen> {
           "urlImage5": urlsList[4].toString(),
 
     });
-    Get.snackbar("Updated", "Your account has been updated successfully.");
+    Get.snackbar("Updated", "Your account has been successfully updated.");
 
     Get.to(HomeScreen());
 

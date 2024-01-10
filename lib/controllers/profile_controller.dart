@@ -90,7 +90,7 @@ class ProfileController extends GetxController
           .collection("users")
           .doc(toUserID).collection("likeReceived").doc(currentUserID)
           .delete();
-
+                    // firebase
       await FirebaseFirestore.instance
           .collection("users")
           .doc(currentUserID).collection("likeSent").doc(toUserID)
